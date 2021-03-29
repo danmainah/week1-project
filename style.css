@@ -138,11 +138,27 @@ article .sub {
   margin-right: 30%;
   margin-left: 30%;
   align-items: center;
+}
 
+.middle-fc a {
+  text-decoration: none;
 }
+
+.most-popular a {
+  float: right;
+  color: #000;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.artical-grid a {
+  text-decoration: none;
+}
+
 article .sub a {
-  color:rgb(71, 71, 194);
+  color: rgb(71, 71, 194);
 }
+
 article u {
   color: blue;
 }
@@ -172,14 +188,40 @@ aside {
   margin: auto;
 }
 
-.container iframe{
-  width: 650px;
-   height:350px
+iframe {
+  text-align: center;
+  width: 100%;
 }
- .container .tele img{
-  width:650px ;
-   height:350px;
- }
+
+.container iframe {
+  width: 650px;
+  height: 350px;
+}
+
+.sug figure img {
+  width: 50px;
+  height: 50px;
+}
+
+.sug figure img {
+  width: 50px;
+  height: 50px;
+}
+
+.editor figure img {
+  width: 150px;
+  height: 150px;
+}
+
+.logo-center a img {
+  display: none;
+}
+
+.container .tele img {
+  width: 650px;
+  height: 350px;
+}
+
 .grid-header {
   text-align: left;
   font-size: 14px;
@@ -296,19 +338,9 @@ article.icon {
   padding: 0 10px 0 0;
 }
 
-.sug figure img{
-  width: 50px; 
-  height: 50px; 
-}
-
-.storylink figure img{
-  width:150px ;
-  height:150px;
-}
-
-.editor figure img {
-  width:150px ;
-  height:150px;
+.storylink figure img {
+  width: 150px;
+  height: 150px;
 }
 
 .link {
@@ -338,9 +370,10 @@ article.icon {
 .editor .left {
   float: left;
 }
-aside img{
-  width:40px; 
-  height:80px;
+
+aside img {
+  width: 40px;
+  height: 80px;
 }
 
 /*  footer */
@@ -363,24 +396,11 @@ aside img{
   font-weight: bolder;
 }
 
-.artical-grid a {
-  text-decoration: none;
-}
 
-.most-popular a {
-  float: right;
-  color: #000;
-  padding: 20px 0;
-  border-bottom: 1px solid rgb(226, 226, 226);
-}
 
 .middle-fc {
   font-size: 11px;
   color: #808080;
-}
-
-.middle-fc a {
-  text-decoration: none;
 }
 
 .artical-a div span {
@@ -457,15 +477,6 @@ aside img{
   width: 100%;
 }
 
-iframe {
-  text-align: center;
-  width: 100%;
-}
-
-.logo-center a img {
-  display: none;
-}
-
 .top-button {
   text-align: center;
   margin-top: 5px;
@@ -476,7 +487,7 @@ iframe {
   color: black;
 }
 
-.subs{
+.subs {
   border-left: 1px solid lightgray;
-   padding-left:15px;
+  padding-left: 15px;
 }
