@@ -1,7 +1,7 @@
-* {
+/* * {
   outline: 1px solid red !important;
 }
-
+*/
 /*  navbar styling */
 a {
   color: rgb(4, 4, 17);
@@ -24,7 +24,12 @@ nav .button {
   position: fixed;
   top: 10px;
   right: 1px;
-  color: #808080;
+}
+.btn {
+  background-color: rgb(71, 84, 139);
+  color: white;
+  font-size: 13px;
+  padding: 5px 6px;
 }
 
 nav .topleft {
@@ -33,7 +38,7 @@ nav .topleft {
   left: 10px;
   display: inline-block;
 }
-  
+
 nav .search {
   position: fixed;
   top: 10px;
@@ -41,7 +46,6 @@ nav .search {
   font-size: 15px;
   color: black;
 }
-
 
 nav .title {
   position: fixed;
@@ -104,6 +108,7 @@ article {
   margin-left: 20%;
   margin-right: 20%;
   font-size: larger;
+  text-decoration:none; 
 }
 
 article .sign {
@@ -134,11 +139,14 @@ aside {
   float: right;
   flex-shrink: initial;
   justify-content: flex-end;
-  max-width: 10%;
+  max-width: 15%;
   margin-left: 0%;
   color: black;
   text-decoration-color: black;
 }
+.left {
+  float: left;
+  padding: 0 10px 0 0;}
 
 /*  inflation captions in picture */
 .inflation {
@@ -244,9 +252,13 @@ article.icon {
   max-width: 15%;
   max-height: 200px;
 }
-
+ 
+ .hd{
+  margin-left: 8%;
+}
 .spacestories {
   margin-right: 21%;
+ 
 }
 
 .sugg {
@@ -255,6 +267,12 @@ article.icon {
   justify-content: flex-start;
   align-content: space-evenly;
   margin-right: 20%;
+  margin-left: 8%; 
+}
+
+.sugg .left{
+  float: left;
+  padding: 0 10px 0 0;
 }
 
 .link {
@@ -263,6 +281,7 @@ article.icon {
   grid-gap: 1px;
   margin-right: 20%;
   align-content: space-evenly;
+  margin-left: 8%;
 }
 
 .editor {
@@ -270,8 +289,18 @@ article.icon {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1px;
   margin-block-end: 10%;
-  margin-right: 20%;
+  margin-right: 25%;
   align-content: space-evenly;
+  margin-left: 8%;
+}
+ .txt{
+    bottom: -50px; /*height of your image*/
+    left: 0px;
+    position: button;
+}
+
+.left {
+  float: left;
 }
 
 /*  footer */
