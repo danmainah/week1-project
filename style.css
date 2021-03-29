@@ -86,9 +86,20 @@ nav .space {
   padding-left: 3em;
 }
 
-.small image {
+.header-img img {
+  width: 100%;
+}
+
+.grid img {
+  width: 200px;
+  height: 150px;
+}
+
+.small figure img {
+  margin-right: 10%;
+  margin-left: 5%;
+  width: 95%;
   height: auto;
-  max-width: 80%;
 }
 
 .s {
@@ -127,8 +138,11 @@ article .sub {
   margin-right: 30%;
   margin-left: 30%;
   align-items: center;
-}
 
+}
+article .sub a {
+  color:rgb(71, 71, 194);
+}
 article u {
   color: blue;
 }
@@ -158,6 +172,14 @@ aside {
   margin: auto;
 }
 
+.container iframe{
+  width: 650px;
+   height:350px
+}
+ .container .tele img{
+  width:650px ;
+   height:350px;
+ }
 .grid-header {
   text-align: left;
   font-size: 14px;
@@ -183,11 +205,6 @@ span b {
 
 .grid p b {
   color: black;
-}
-
-.grid img {
-  width: 200px;
-  height: 150px;
 }
 
 .short-descriptions {
@@ -279,6 +296,21 @@ article.icon {
   padding: 0 10px 0 0;
 }
 
+.sug figure img{
+  width: 50px; 
+  height: 50px; 
+}
+
+.storylink figure img{
+  width:150px ;
+  height:150px;
+}
+
+.editor figure img {
+  width:150px ;
+  height:150px;
+}
+
 .link {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -305,6 +337,10 @@ article.icon {
 
 .editor .left {
   float: left;
+}
+aside img{
+  width:40px; 
+  height:80px;
 }
 
 /*  footer */
@@ -426,10 +462,6 @@ iframe {
   width: 100%;
 }
 
-.header-img img {
-  width: 100%;
-}
-
 .logo-center a img {
   display: none;
 }
@@ -442,4 +474,9 @@ iframe {
 .top .social a {
   margin-left: 30px;
   color: black;
+}
+
+.subs{
+  border-left: 1px solid lightgray;
+   padding-left:15px;
 }
