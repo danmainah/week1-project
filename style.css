@@ -226,7 +226,6 @@ iframe {
   height: 50px;
 }
 
-
 .editor figure img {
   width: 150px;
   height: 150px;
@@ -300,7 +299,7 @@ article.icon {
   margin: 20px auto;
   margin-top: 5px;
   border-radius: 15px;
-  background-color: blue;
+  background-color:bisque;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -391,7 +390,6 @@ article.icon {
 }
 
 /*  footer */
-
 
 .middle-fc {
   font-size: 11px;
